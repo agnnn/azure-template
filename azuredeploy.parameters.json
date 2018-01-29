@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "adminUsername": {
+            "value": "pradeep"
+        },
+        "sshPublicKey": {
+            "value": null
+        },
+        "devopsDnsPrefix": {
+            "value": "testspinnaker"
+        },
+        "servicePrincipalAppId": {
+            "value": null
+        },
+        "servicePrincipalAppKey": {
+            "value": null
+        },
+        "gitRepository": {
+            "value": "https://github.com/agnnn/dockerized-node.git"
+        },
+        "dockerRepository": {
+            "value": "test/webfrontend"
+        }
+    }
+}
